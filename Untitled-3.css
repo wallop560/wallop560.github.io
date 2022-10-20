@@ -1,23 +1,30 @@
 @charset "utf-8";
-/* CSS Document */
 
-.uwu{
-	width: 900px;
-	height: 900px;
-	transition-property: width height;
-	transition-duration: 0.5s;
+body{
+	background-color: darkcyan;
+	margin: 0;
 }
-.uwu:hover{
-	width: 500px;
-	height: 500px;
+html{
+	scroll-snap-type:y mandatory;
+	
 }
 
-.Button {
-	display: block;
-	transition-property: width height background-color;
-	transition-duration: 0.5s;
-	background-color: #1143E0;
+section{
+	display: grid;
+	place-items: center;
+	align-content: center;
+	min-height: 100vh;
+	scroll-snap-align: center;
 }
-.Button:hover{
-	background-color: #0A2784;
+
+.hidden{
+	opacity: 0;
+	filter: blur(2px);
+	transition: all 1s;
+	transform: translateY(100%);
+}
+.show{
+	filter: blur(0px);
+	opacity: 1;
+	transform: translateY(0%);
 }
