@@ -160,8 +160,8 @@ html{
 }
 
 section{
-	margin-left: 20vh;
-	margin-right: 20vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
 	display: grid;
 	place-items: left;
 	align-items: center;
@@ -177,6 +177,20 @@ section{
 	border-style: ridge;
 	margin-bottom: 40px;
 	float:right;
+}
+
+.media{
+	border-radius: 30%;
+	height: 15vh;
+	width: 15vh;
+	margin-bottom: 40px;
+    margin-left: 10px;
+	float:right;
+}
+
+.media:hover{
+    opacity: .8;
+    transition: all .4s;
 }
 
 h1{
