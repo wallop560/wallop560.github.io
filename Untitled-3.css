@@ -192,6 +192,11 @@ section{
     transition: all .4s;
 }
 
+a{
+    color: #c2abc4;
+    font-style: italic;
+}
+
 h1{
 	font-family: "exo",sans-serif;
 	font-size: 12vh;
